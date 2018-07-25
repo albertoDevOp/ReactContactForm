@@ -1,0 +1,125 @@
+.msg {
+    width: 300px;
+    border-radius: 4px;
+    background-color: #ebeceb;
+    padding: 25px 35px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    font-family: Play;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    min-height: 18px;
+}
+.msg:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    top: 15px;
+    background-color: #ebeceb;
+    transform: rotate(45deg);    
+}
+.instructions {
+    width: 550px;
+    padding: 10px 0;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    font-family: Play;
+    position: relative;
+    top: 10px;
+    position: relative;
+}
+.instructions ul {
+    list-style-type: decimal;
+    padding-left: 25px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.sender .name {
+    display: inline-block;
+    margin: 0 !important;
+    vertical-align: top;
+}
+.sender div:first-child {
+    padding-top: 10px;    
+}
+.sender div:first-child span {
+    font-weight: bold;
+}
+.sender p:last-child {
+    margin-left: 20px;
+}
+.sender .new {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #90CAF9;
+    margin-right: 10px;
+    outline: none;
+}
+.mform {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 100px;
+}
+.mform section:first-child {
+    padding-left: 50px;
+    width: 550px;
+}
+.placeholder {
+    color: #484747;
+}
+.placeholder.hidden {
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mform section:last-child {
+    padding-left: 100px;
+}
+.body.visible {
+    min-height: 20px;
+}
+.body:focus + div {
+    opacity: 0;
+}
+.tags {
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    width: 200px;
+}
+.tags li {
+    border: 1px solid;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: Play;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #00838F;
+}
+.template {
+    width: 300px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.template .name {
+    text-align: center;
+    font-weight: bold;
+}

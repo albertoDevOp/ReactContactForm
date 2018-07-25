@@ -1,0 +1,28 @@
+.signin [contenteditable=true] {
+    font-size: 40px;
+}
+.signin .button {
+    padding: 10px 30px;
+    margin-top: 15px;    
+    font-size: 16px;
+}
+.signin.container {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.confirmed {
+    font-size: 25px;
+    font-family: 'Play', sans-serif;       
+}
+.confirmed p:first-child {
+    margin-top: 0;
+}
+.confirmed .button {
+    padding: 10px 30px;
+    margin-top: 15px;    
+    font-size: 16px;
+}

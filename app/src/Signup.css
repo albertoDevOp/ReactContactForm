@@ -1,0 +1,21 @@
+.signup [contenteditable=true] {
+    font-size: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.signup .button {
+    padding: 5px 30px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.signup.container {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}

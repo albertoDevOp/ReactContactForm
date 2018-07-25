@@ -1,0 +1,49 @@
+.file {
+    width: 100%;
+    height: calc(100% - 64.5px);
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.file.dragged {
+    color: #f26822;
+}
+.file .container {
+    transform: translateY(-50%);
+    top: calc(50% - 32px);
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    width: 100%;
+}
+.file.dragged .container .add {
+    animation-name: dragged;  
+    animation-duration: 1s;  
+    animation-iteration-count: infinite;  
+    position: relative;
+    display: block;  
+    top: 0;
+}
+@keyframes dragged {
+    0% {       
+        top: 0px;
+    }
+    50% {         
+        top: -30px;
+    }
+    100% {    
+        top: 0px;
+    }
+}
+.add {
+    font-family: 'uicoda';
+    font-size: 50px;
+    font-weight: 300;
+}
+.wtd {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    font-family: 'Play';
+}

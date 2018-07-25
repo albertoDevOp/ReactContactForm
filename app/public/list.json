@@ -1,0 +1,32 @@
+{
+    "list": [
+        {
+            "id": "deli11",
+            "name": "Andorrana",
+            "created": 1513498740000,
+            "next": 1513498740000,
+            "status": "pending"
+        },
+        {
+            "id": "deli12",
+            "name": "Cesar",
+            "last": 1513498740000,
+            "next": 1513498740000,
+            "status": "delivering"
+        },
+        {
+            "id": "deli13",
+            "name": "Caixavia",
+            "created": 1513298740000,
+            "last": 1513498740000,
+            "status": "finished"
+        },
+        {
+            "id": "deli14",
+            "name": "Amsterdam",
+            "last": 1513498740000,
+            "next": 1513498740000,
+            "status": "delivering"
+        }
+    ]
+}

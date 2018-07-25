@@ -1,0 +1,115 @@
+.login.container {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.login h1 {
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+.login h1 span {
+    position: relative;
+    display: inline-block;
+}
+.login h1 span:first-child {
+    animation: title .8s;
+    margin-right: 15px;
+}
+.login h1 span:last-child {
+    animation: title-reverse .8s;
+    margin-left: 15px;
+}
+.login p {
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    animation: subtitle .8s;
+}
+.login ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    animation: opts .8s;   
+    position: relative; 
+}
+li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+@keyframes title {
+    from { 
+        left: -25px;
+        top: 20px;
+        opacity: 0.2;
+    }
+    80% {
+        opacity: 0.6;
+        top: 20px;
+    }
+    90% {
+        left: 0;
+    }
+    to { 
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes title-reverse {
+    from { 
+        right: -25px;
+        opacity: 0.2;        
+        top: 20px;
+    }
+    80% {
+        opacity: 0.6;
+        top: 20px;
+    }
+    90% {
+        right: 0;
+    }
+    to {
+        top: 0; 
+        opacity: 1;
+    }
+}
+@keyframes subtitle {
+    from { 
+        opacity: 0;        
+        top: 30px;
+    }
+    50% { 
+        opacity: 0;        
+        top: 30px;
+    }
+    75% {
+        opacity: 0.2;        
+        top: 20px;
+    }
+    to {
+        top: 0; 
+        opacity: 1;
+    }
+}
+@keyframes opts {
+    from { 
+        opacity: 0;        
+        top: 30px;
+    }
+    50% { 
+        opacity: 0;        
+        top: 30px;
+    }
+    75% {
+        opacity: 0.2;        
+        top: 20px;
+    }
+    to {
+        top: 0; 
+        opacity: 1;
+    }
+}

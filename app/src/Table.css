@@ -1,0 +1,76 @@
+.sum {
+    list-style: none;
+    font-family: 'Play';
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sum li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sum .name {
+    margin-bottom: 4px;
+}
+.sum .url {
+    margin-bottom: 25px;
+}
+.sum .dwnld {
+    font-family: 'uicoda';
+    vertical-align: middle;
+    font-size: 20px;
+}
+.table {
+    display: inline-block;
+    left: 150px;
+    position: relative;
+    vertical-align: top;
+    top: 100px;
+}
+.table ul {
+    list-style: none;
+    font-family: 'Play';
+    padding: 5px 0;
+    font-size: 14px;
+}
+.table .thead {
+    margin: 0;
+    border-bottom: 1px solid #424242;
+    color: #424242;
+}
+ul.tr:nth-child(2n) {
+    background-color: #f5f5f5a6;
+    margin: 0;
+}
+.table ul {
+    margin: 0;    
+}
+.table ul li.delete{
+    font-family: 'uicoda';
+    font-size: 22px;
+    opacity: 0;
+    width: 40px;
+}
+.table ul:hover li.delete{
+    opacity: 1;
+    cursor: pointer;
+    color: #008000;
+}
+.table .th {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.table li {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    cursor: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.table li.td:first-child, .table li.th:first-child {
+    padding-left: 15px;
+}
